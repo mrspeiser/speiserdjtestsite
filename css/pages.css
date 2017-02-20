@@ -1,0 +1,716 @@
+
+
+.SocialNav {
+	background-color: white;
+	height: 75px;
+	width: 100%;
+
+}
+
+
+.HomeButton {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/homeicon.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-style: solid;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	margin-top: 50px;
+
+}
+/* START ABOUT.HTML CLASSES */
+.aboutpicture {
+	background-image: url('../aboutimages/speiserdjphotoshoot.jpg');
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+	width: 100%;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.abouttextbox {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	border-style: solid;
+	border-width: 6px;
+	border-color: grey; 
+	background-color: white;
+
+
+}
+/* END ABOUT.HTML CLASSES */
+
+
+
+/* 16 BOX GRID NAVIGATION CSS BELOW */
+
+.BoxNav {
+	height: 570px;
+	width: 570px;
+	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 75px;
+
+	vertical-align: 100px;
+	opacity: 0.9;
+
+}
+
+.row1 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	
+	
+}
+
+.row2 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.row3 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.row4 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.box1 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/aboutbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+	
+
+}
+
+.box1:hover {
+	background-image: url('../images/boximagesblack/aboutbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+		
+
+}
+
+
+.box2 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/servicesbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+.box2:hover {
+	background-image: url('../images/boximagesblack/servicesbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box3 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/musicbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.box3:hover {
+	background-image: url('../images/boximagesblack/musicbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box4 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/contactbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box4:hover {
+	background-image: url('../images/boximagesblack/contactbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box5 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/eventsbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box5:hover {
+	background-image: url('../images/boximagesblack/eventsbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box6 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/upcomingbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box6:hover {
+	background-image: url('../images/boximagesblack/upcomingbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+
+.box7 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/photosbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box7:hover {
+	background-image: url('../images/boximagesblack/photosbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box8 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/messageboardbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box8:hover {
+	background-image: url('../images/boximagesblack/messageboardbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box9 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/affiliatesbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box9:hover {
+	background-image: url('../images/boximagesblack/affiliatesbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box10 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/zerogroundsbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box10:hover {
+	background-image: url('../images/boximagesblack/zerogroundsbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box11 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/jobs.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box11:hover {
+	background-image: url('../images/boximagesblack/jobs2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box12 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/blogbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box12:hover {
+	background-image: url('../images/boximagesblack/blogbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box13 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/facebook.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box13:hover {
+	background-image: url('../images/facebook.jpg');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+
+
+.box14 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/twitter.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box14:hover {
+	background-image: url('../images/twitter.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.box15 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/soundcloud.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box15:hover {
+	background-image: url('../images/soundcloud.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.box16 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/mixcloud1.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+	background-size: cover;
+
+}
+.box16:hover {
+	background-image: url('../images/mixcloud.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+/* 16 BOX GRID NAVIGATION CSS END */
+
+
+/* START BODY & TEXT ELEMENTS */
+header {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+footer {
+	background-color: black;
+	width: 100%;
+	height: 400px;
+	margin-top: 40px;
+	
+
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+
+h1 {
+	color: transparent;
+}
+
+h2 {
+	font-family: DESIB;
+	margin-left: 40px;
+	font-size: 50px;
+	text-align: center;
+}
+
+h3 {
+	font-family: DESIB;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+h4 {
+	text-align: center;
+}
+body {
+	
+	margin: 0px;
+	padding: 0px;
+	
+
+}
+
+
+@font-face {
+	font-family: DESIB;
+	src: url('../fonts/DESIB.ttf');
+}
+
+@font-face {
+	font-family: Menlo;
+	src: url('../fonts/Menlo.ttf');
+}
+p {
+	font-family: Menlo;
+	font-weight: ; 
+	font-size: 15px;
+	margin-left: 25px;
+	margin-right: 25px;
+	text-align: justify;
+	display: block;
+	padding: 0px;
+
+
+}
+
+a.fill-div {
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+a p {
+	text-decoration: none;
+	color: black;
+
+}
+
+ul li {
+	float: center;
+	display: block;
+	display: inline-flex;
+	
+
+}
+
+ul {
+	margin: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+li {
+	margin-right: 20px;
+	margin-left: 5px;
+
+}
+
+textarea {
+	width: 500px;
+	height: 300px;
+	font-size: 14px;
+	margin: 15px;
+	
+}
+
+input {
+	width: 250px;
+	height: 25px;
+	font-size: 14px;
+	margin: 15px;
+}
+/* END  BODY & TEXT ELEMENTS */
+
+
+
+/* START SERVICES PAGE CLASSES */
+
+.servicesheader {
+	display: inline-block;
+	background-image: url('../images/header_1.png');
+	background-position: center;
+	height: 200px;
+	width: 100%;
+	margin: 0px;
+
+}
+.servicesnav {
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+
+.DJproaudiosection {
+	background-image: url('../images/Ajax_DJ.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	
+}
+
+.DJservicestext {
+	width: 100%;
+	
+
+	color: black;
+	display: inline-block;
+	margin-top: 10px; 
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+
+}
+
+.servicestextdj {
+	position: relative;
+	width: 100%;
+
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(255,255,255,.7);
+	
+
+
+}
+
+.musicprodsection {
+	background-image: url('../images/musicprod.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	text-decoration: none;
+}
+
+.eventplansection {
+	background-image: url('../images/Ritz-133.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+
+.artistdev {
+	background-image: url('../images/artistdev.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 700px;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+}
+/* END SERVICES PAGE CLASSES */
+
+
+
+
+/* START MUSIC.HTML PAGE CLASSES */
+.musiclinks1 {
+
+	
+	align-content: ;
+	text-align: center;
+	
+}
+
+.musiclinksheader {
+	width: 100%;
+	height: 150px;
+	text-align: center;
+	align-content: center;
+	
+
+}
+
+.mltext {
+	padding-top: 50px;
+
+}
+iframe {
+	margin-right: auto;
+	margin-left: auto;
+}
+/* END MUSIC.HTML PAGE CLASSES */
+
+
+/* Begin events.html Classes */
+
+.eventphotos {
+	
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 400px;
+	
+}
+img {
+
+}
+
+
+/* BEGIN CONTACT CLASSES */
+
+.rightarrow {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/rightarrow.png');
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	border-style: solid;
+	margin-left: 50px;
+	display: inline-block;
+}
+
+
+.linkrow {
+	text-align: center;
+}
+
+.leftarrow {
+	height: 100px;
+	width: 100px;
+	background-image: url('../images/leftarrow.png');
+	background-repeat: no-repeat;
+	background-size: 80%;
+	background-position: center;
+	border-style: solid;
+	margin-right: 50px;
+	display: inline-block;
+}
+
+.contactmain {
+	width: 100%;
+	height: 500px;
+	background-color: white;
+	text-align: center;
+
+}
+
+.contactwrapper {
+	margin-right: auto;
+	margin-left: 100px;
+}
+
+/*END CONTACT CLASSES */
+
+/*BEGIN BLOG CLASSES */
+
+.blogcontent {
+
+}
+
+.blogpost1 {
+
+}
+
+.blogpost1image {
+	height: 500px;
+	width: 100%;
+	padding-bottom: 50px;
+	background-image: url('../images/ssss.png');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-content: center;
+}
+
+.blogpost1text {
+
+}
+
+
+.blogpost2 {
+
+}
+
+.blogpost2image {
+	height: 500px;
+	width: 100%;
+	padding-bottom: 50px;
+	background-image: url('../images/uuuu.png');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	align-content: center;
+}
+
+.blogpost2text {
+
+}

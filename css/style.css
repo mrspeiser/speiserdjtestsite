@@ -1,0 +1,371 @@
+
+
+.SocialNav {
+	background-color: black;
+	height: 75px;
+	width: 100%;
+
+}
+
+
+.MainContent {
+	
+	background-image: url(../images/Speiserwebsite.jpg);
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+
+}
+
+
+.BoxNav {
+	height: 570px;
+	width: 570px;
+	background-color: orange;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: 100px;
+	opacity: 0.9;
+
+}
+
+.row1 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	
+	
+}
+
+.row2 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.row3 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.row4 {
+	height: 142.5px;
+	width: 100%;
+	background-color: none;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.box1 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/aboutbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+	
+
+}
+
+.box1:hover {
+	background-image: url('../images/boximagesblack/aboutbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+		
+
+}
+
+
+.box2 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/servicesbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+}
+.box2:hover {
+	background-image: url('../images/boximagesblack/servicesbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box3 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/musicbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+
+.box3:hover {
+	background-image: url('../images/boximagesblack/musicbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box4 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/contactbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box4:hover {
+	background-image: url('../images/boximagesblack/contactbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box5 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/eventsbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box5:hover {
+	background-image: url('../images/boximagesblack/eventsbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box6 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/upcomingbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box6:hover {
+	background-image: url('../images/boximagesblack/upcomingbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+
+.box7 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/photosbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box7:hover {
+	background-image: url('../images/boximagesblack/photosbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box8 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/messageboardbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box8:hover {
+	background-image: url('../images/boximagesblack/messageboardbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box9 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/affiliatesbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box9:hover {
+	background-image: url('../images/boximagesblack/affiliatesbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+
+.box10 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/zerogroundsbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box10:hover {
+	background-image: url('../images/boximagesblack/zerogroundsbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box11 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/jobs.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box11:hover {
+	background-image: url('../images/boximagesblack/jobs2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box12 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/blogbutton.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box12:hover {
+	background-image: url('../images/boximagesblack/blogbutton2.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	}
+.box13 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/facebook.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box13:hover {
+	background-image: url('../images/facebook.jpg');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+
+
+.box14 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/twitter.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+
+}
+.box14:hover {
+	background-image: url('../images/twitter.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.box15 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/soundcloud.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+
+}
+.box15:hover {
+	background-image: url('../images/soundcloud.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.box16 {
+	width: 100px;
+	height:100px;
+	background-image: url('../images/boximageswhite/mixcloud1.png');
+	float: left;
+	margin: 20px;
+	text-align: center;
+	background-size: cover;
+
+}
+.box16:hover {
+	background-image: url('../images/mixcloud.png');
+	transition-property: background-image;
+	transition-duration: 1s;
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+footer {
+	background-color: black;
+	width: 100%;
+	height: 50px;
+
+}
+
+h1 {
+	color: transparent;
+}
+
+body {
+	background-color: black;
+}
+
+
+@font-face {
+	font-family: DESIB;
+	src: url('../fonts/DESIB.ttf');
+}
+p {
+	font-family: DESIB, Fantasy, Arial;
+	vertical-align: middle;
+	
+	font-size: 20px;
+	height: 100px;
+
+}
+p:hover {
+	color: transparent;
+
+}
+
+
+a.fill-div {
+	display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+
+}
+
+a p {
+	text-decoration: none;
+	color: black;
+}
+
+
